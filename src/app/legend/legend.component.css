@@ -1,0 +1,49 @@
+.factors {
+  border-left: 1px solid #5a5a5a;
+  padding-left: 20px;
+}
+
+.factors ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.factors li {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.factors h3 {
+  padding: 0;
+  margin: 6px 0;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.factors h4 {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.factors--metric {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+
+.factors--metric span {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.factors path {
+  transition: d 0.4s ease;
+}

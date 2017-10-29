@@ -1,0 +1,33 @@
+.App {
+  width: 600px;
+  background-color: rgba(23, 23, 23, 0.9);
+  color: #fff;
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  box-shadow:0 1px 2px 1px rgba(0,0,0,0.1);
+}
+
+.App__Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App__Graphs {
+  display: flex;
+  padding: 40px 0 40px 0;
+}
+
+.App h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.App h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 1px;
+}

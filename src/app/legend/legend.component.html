@@ -1,0 +1,14 @@
+<div class="factors">
+  <h3>{{FACTORS.length}} Factors</h3>
+  <ul>
+    <li *ngFor="let factor of FACTORS">
+      <h4>{{factor.name}}</h4>
+      <div class="factors--metric">
+        <span>{{factor.value}}</span>
+        <svg style="width:100px;height:10px" width=100 height=10>
+          <path [attr.d]="getPathValue(factor.value)" stroke-width="4" stroke="#9b59b6"></path>
+        </svg>
+      </div>
+    </li>
+  </ul>
+</div>
